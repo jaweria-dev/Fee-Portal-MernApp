@@ -1,0 +1,33 @@
+.alert-message {
+  max-width: 600px;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+  color: #004085;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+.alert-message .alert-primary {
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  color: #004085;
+}
+
+/* .mt-2{
+  width: 15vw;
+  text-align: center;
+  background-color: #8AC642;
+  color: white;
+  border: 1px solid white;
+  position: relative;
+  left: 15px;
+} */
+
+/* .mt-2:hover{
+  color: white;
+  border: 1px solid #8AC642;
+} */
