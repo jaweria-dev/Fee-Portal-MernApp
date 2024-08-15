@@ -28,9 +28,9 @@ app.use(bodyParser.json());
 app.use(morgan("dev"));
 
 // Routes
-app.use("/api/fee/portal", authRoutes);
-app.use("/api/fee/portal/teacher", teacherRoutes);
-app.use("/api/fee/portal/students", studentsRoutes);
+app.use("/api", authRoutes);
+app.use("/api/teacher", teacherRoutes);
+app.use("/api/students", studentsRoutes);
 app.use("/api/qrcode", qrCodeRoutes); // Easypaisa
 app.use("/api/payment", paymentRoute); // JazzCash
 
